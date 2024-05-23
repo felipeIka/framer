@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "MODELICA";
+    src: url(../assets/fonts/Modelica.otf);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "MODELICA-BOLD";
+    src: url(../assets/fonts/Modelica-Bold.otf);
 }
+@font-face {
+    font-family: "MODELICA-LIGHT";
+    src: url(../assets/fonts/Modelica-Light.otf);
+}
+@font-face {
+    font-family: "MODELICA-ITALIC";
+    src: url(../assets/fonts/Modelica-Italic.otf);
+}
+
+
+ 
